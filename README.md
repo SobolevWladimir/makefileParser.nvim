@@ -1,6 +1,6 @@
-# You can [makeit.nvim](https://github.com/Zeioth/makeit.nvim) ❤️
+# This is fork [makeit.nvim](https://github.com/Zeioth/makeit.nvim) but better) ❤️
 
-[Makeit.nvim](https://github.com/Zeioth/makeit.nvim) lists the options defined on your project `Makefile`
+Lists the options defined on your project `Makefile`
 ![screenshot_2023-09-01_10-20-30_465268693](https://github.com/Zeioth/makeit.nvim/assets/3357792/29a373c1-6d19-49fb-95a6-f350a16b1c41)
 
 After selecting an option, you can visualize the result
@@ -14,13 +14,13 @@ After selecting an option, you can visualize the result
 </div>
 
 ## When should I use this plugin?
-In scenarios where you prefer to manually write your own commands to build and run your project, instead of using [compiler.nvim](https://github.com/Zeioth/compiler.nvim).
+In scenarios where you prefer to manually write your own commands to build and run your project.
 
 ## How to install
 lazy.nvim package manager
 ```lua
 { -- This plugin
-  "Zeioth/makeit.nvim",
+  "SobolevWladimir/makefileParser.nvim",
   cmd = {"MakeitOpen", "MakeitToggleResults", "MakeitRedo"},
   dependencies = { "stevearc/overseer.nvim" },
   opts = {},
@@ -52,10 +52,6 @@ lazy.nvim package manager
 ## FAQ
 
 * **Do this plugin support any operative system?**
-YES: As long as you can run the commands `make` and `echo` on your terminal, [makeit.nvim](https://github.com/Zeioth/makeit.nvim) will be able to use them.
+YES: As long as you can run the commands `make` and `echo` on your terminal, [makefileParser.nvim](https://github.com/SobolevWladimir/makefileParser.nvim) will be able to use them.
 
-## Other projects from the same author
-* [NormalNvim](https://github.com/NormalNvim/NormalNvim)
-* [Compiler.nvim](https://github.com/Zeioth/compiler.nvim)
-* [Markmap.nvim](https://github.com/Zeioth/dooku.nvim)
-* [Dooku.nvim](https://github.com/Zeioth/dooku.nvim)
+
