@@ -7,11 +7,6 @@ After selecting an option, you can visualize the result
 ![screenshot_2023-09-01_10-20-37_056327408](https://github.com/Zeioth/makeit.nvim/assets/3357792/5041f518-05d3-4458-8999-d8d274a4b3b2)
 
 
-<div align="center">
-  <a href="https://discord.gg/ymcMaSnq7d" rel="nofollow">
-      <img src="https://img.shields.io/discord/1121138836525813760?color=azure&labelColor=6DC2A4&logo=discord&logoColor=black&label=Join the discord server&style=for-the-badge" data-canonical-src="https://img.shields.io/discord/1121138836525813760">
-    </a>
-</div>
 
 ## When should I use this plugin?
 In scenarios where you prefer to manually write your own commands to build and run your project.
